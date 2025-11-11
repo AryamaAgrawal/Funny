@@ -1,41 +1,452 @@
 [
   {
-    "id": "q1",
-    "question_variants": [
-      "what is a mutual fund",
-      "explain mutual funds",
-      "how do mutual funds work"
-    ],
+    "id": "q01",
+    "question_variants": ["what is a mutual fund", "explain mutual funds", "how do mutual funds work"],
     "answer_variants": [
-      "A mutual fund pools money from many investors to buy a diversified portfolio of stocks, bonds or other assets. It's managed by professionals and gives small investors access to diversified portfolios.",
-      "Mutual funds let many investors combine their money and share the returns and risks of a professionally managed set of investments."
+      "A mutual fund pools money from many investors to buy a diversified portfolio of stocks, bonds or other securities and is managed by professionals.",
+      "Mutual funds let investors combine funds to get diversification and professional management, sharing proportionate gains and losses."
     ],
     "source": "financial_glossary.txt"
   },
   {
-    "id": "q2",
-    "question_variants": [
-      "what is compound interest",
-      "explain compound interest",
-      "how does compound interest work"
-    ],
+    "id": "q02",
+    "question_variants": ["what is compound interest", "explain compound interest", "how does compound interest work"],
     "answer_variants": [
-      "Compound interest is interest earned on both the original principal and on interest previously added. Over time, compound interest accelerates growth compared with simple interest.",
-      "When interest is reinvested, future interest earns interest too — that's compound interest, and it leads to exponential growth over long periods."
+      "Compound interest is interest earned on both the original principal and on previously accumulated interest, which accelerates growth over time.",
+      "When interest is reinvested and itself earns interest in future periods, that's compound interest leading to exponential growth."
     ],
     "source": "financial_glossary.txt"
   },
   {
-    "id": "q3",
-    "question_variants": [
-      "what is an emi",
-      "explain emi",
-      "what is equated monthly installment"
-    ],
+    "id": "q03",
+    "question_variants": ["what is inflation", "explain inflation", "why does inflation happen"],
     "answer_variants": [
-      "An EMI (Equated Monthly Installment) is a fixed monthly payment comprising principal and interest used to repay a loan over a set tenure.",
-      "EMI is the monthly amount you pay to repay a loan, calculated so payments are equal each month across the loan term."
+      "Inflation is the general increase in prices of goods and services over time, reducing purchasing power.",
+      "Inflation arises when demand outpaces supply or when the money supply grows faster than output, causing prices to rise."
+    ],
+    "source": "financial_glossary.txt"
+  },
+  {
+    "id": "q04",
+    "question_variants": ["what is an emi", "explain emi", "what is equated monthly installment"],
+    "answer_variants": [
+      "EMI (Equated Monthly Installment) is a fixed monthly payment including principal and interest to repay a loan over a set tenure.",
+      "An EMI splits loan repayment into equal monthly amounts so borrowers pay the same amount every month until the loan ends."
     ],
     "source": "personal_finance_guide.txt"
+  },
+  {
+    "id": "q05",
+    "question_variants": ["what is a credit score", "explain credit score", "why is credit score important"],
+    "answer_variants": [
+      "A credit score is a numerical summary of your creditworthiness based on payment history, debt levels, and credit mix.",
+      "Lenders use credit scores to decide loan approvals and interest rates; higher scores usually get better terms."
+    ],
+    "source": "financial_glossary.txt"
+  },
+  {
+    "id": "q06",
+    "question_variants": ["what is a fixed deposit", "explain fixed deposit", "what is fd in banking"],
+    "answer_variants": [
+      "A fixed deposit (FD) is a bank product where you lock money for a fixed period at a fixed interest rate for predictable returns.",
+      "FDs are low-risk instruments with a set tenure and guaranteed interest—good for conservative savers and emergency reserves."
+    ],
+    "source": "financial_glossary.txt"
+  },
+  {
+    "id": "q07",
+    "question_variants": ["what is a savings account", "explain savings account", "what does a savings account do"],
+    "answer_variants": [
+      "A savings account holds your money with easy access and pays modest interest; it's ideal for emergency funds and short-term needs.",
+      "Savings accounts let you deposit and withdraw funds while earning small interest and keeping money liquid."
+    ],
+    "source": "financial_glossary.txt"
+  },
+  {
+    "id": "q08",
+    "question_variants": ["what is diversification", "explain diversification", "why diversify investments"],
+    "answer_variants": [
+      "Diversification spreads investments across assets or sectors so poor performance in one area is offset by others, reducing risk.",
+      "By holding different asset types, diversification lowers overall portfolio volatility and potential losses."
+    ],
+    "source": "financial_glossary.txt"
+  },
+  {
+    "id": "q09",
+    "question_variants": ["what is asset allocation", "explain asset allocation", "how to allocate assets"],
+    "answer_variants": [
+      "Asset allocation divides investments among asset classes—stocks, bonds, cash—based on goals, risk tolerance and horizon.",
+      "Choosing proportions for equities, bonds and cash helps balance expected returns and risk according to your objectives."
+    ],
+    "source": "financial_glossary.txt"
+  },
+  {
+    "id": "q10",
+    "question_variants": ["what is risk tolerance", "explain risk tolerance", "how to determine risk tolerance"],
+    "answer_variants": [
+      "Risk tolerance is how much variability in investment returns you can accept without panic selling; it depends on time horizon and personality.",
+      "If you have a long horizon and stable finances you can accept higher risk for growth; conservative investors prefer stability."
+    ],
+    "source": "financial_glossary.txt"
+  },
+  {
+    "id": "q11",
+    "question_variants": ["what is an emergency fund", "how much emergency fund needed", "why have emergency savings"],
+    "answer_variants": [
+      "An emergency fund is liquid savings to cover 3–6 months of essential expenses for job loss or unexpected costs.",
+      "Keep emergency money in a savings account or short-term FD so it's accessible when urgent needs arise."
+    ],
+    "source": "personal_finance_guide.txt"
+  },
+  {
+    "id": "q12",
+    "question_variants": ["what is a budget", "how to make a budget", "what is budgeting"],
+    "answer_variants": [
+      "A budget is a plan that matches income to expenses and savings goals; the 50/30/20 rule is a simple starting framework.",
+      "Track monthly income and spending, categorize expenses, and adjust to ensure you meet savings and debt-repayment targets."
+    ],
+    "source": "personal_finance_guide.txt"
+  },
+  {
+    "id": "q13",
+    "question_variants": ["what is sip", "explain sip in mutual funds", "what is systematic investment plan"],
+    "answer_variants": [
+      "SIP (Systematic Investment Plan) invests a fixed amount regularly into mutual funds, averaging purchase cost over time.",
+      "SIPs help build disciplined investing habits and reduce timing risk by investing periodically regardless of market levels."
+    ],
+    "source": "financial_glossary.txt"
+  },
+  {
+    "id": "q14",
+    "question_variants": ["what is a loan to value ratio", "explain LTV", "what is loan to value"],
+    "answer_variants": [
+      "Loan-to-Value (LTV) is the loan amount divided by the asset's value, used by lenders to assess mortgage risk.",
+      "A higher LTV indicates greater risk to the lender; lower LTV usually means better loan terms for the borrower."
+    ],
+    "source": "financial_glossary.txt"
+  },
+  {
+    "id": "q15",
+    "question_variants": ["what is collateral", "explain collateral in loans", "why collateral required"],
+    "answer_variants": [
+      "Collateral is an asset pledged to secure a loan; if the borrower defaults, the lender may seize the collateral.",
+      "Using collateral reduces lender risk and can enable lower interest rates or larger loan amounts."
+    ],
+    "source": "financial_glossary.txt"
+  },
+  {
+    "id": "q16",
+    "question_variants": ["what is kyc", "explain know your customer", "why is kyc required"],
+    "answer_variants": [
+      "KYC (Know Your Customer) is the process of verifying a customer's identity to comply with anti-money-laundering rules.",
+      "Banks and financial institutions perform KYC to confirm identity, address and to prevent fraud and illicit finance."
+    ],
+    "source": "financial_glossary.txt"
+  },
+  {
+    "id": "q17",
+    "question_variants": ["what is credit utilization", "explain credit utilization ratio", "how does credit utilization affect score"],
+    "answer_variants": [
+      "Credit utilization is the ratio of used credit to available credit; lower utilization generally supports a better credit score.",
+      "Keeping utilization under 30% is often recommended to show responsible credit use to lenders and scoring models."
+    ],
+    "source": "financial_glossary.txt"
+  },
+  {
+    "id": "q18",
+    "question_variants": ["what is diversification in investments", "explain why diversification matters", "why diversify portfolio"],
+    "answer_variants": [
+      "Diversification reduces exposure to any single asset or event by spreading investments across sectors, geographies or asset classes.",
+      "Diversifying helps ensure one poor-performing holding doesn't derail your entire portfolio over time."
+    ],
+    "source": "financial_glossary.txt"
+  },
+  {
+    "id": "q19",
+    "question_variants": ["how to start investing", "beginner investing steps", "where should i start investing"],
+    "answer_variants": [
+      "Start with an emergency fund, reduce high-interest debt, then invest regularly in diversified, low-cost funds aligned with goals.",
+      "For beginners, consider index funds or balanced mutual funds and use SIPs to build positions over time."
+    ],
+    "source": "personal_finance_guide.txt"
+  },
+  {
+    "id": "q20",
+    "question_variants": ["what are capital gains", "explain capital gains", "how are capital gains taxed"],
+    "answer_variants": [
+      "Capital gains are profits from selling an asset for more than its purchase price; taxation depends on holding period and jurisdiction.",
+      "Long-term gains are often taxed at lower rates than short-term gains; check local tax rules for specifics."
+    ],
+    "source": "financial_glossary.txt"
+  },
+  {
+    "id": "q21",
+    "question_variants": ["what is an expense ratio", "explain expense ratio in mutual funds", "how does expense ratio affect returns"],
+    "answer_variants": [
+      "Expense ratio is the annual fee charged by mutual funds expressed as a percentage of assets under management and reduces investor returns.",
+      "Lower expense ratios mean less drag on long-term returns; compare fund costs when choosing funds."
+    ],
+    "source": "financial_glossary.txt"
+  },
+  {
+    "id": "q22",
+    "question_variants": ["what is an annuity", "explain annuity", "how does annuity work"],
+    "answer_variants": [
+      "An annuity is a contract that pays fixed or variable payments over time, often used to provide retirement income.",
+      "Annuities convert a lump sum into a stream of payments for life or a fixed period, trading liquidity for steady income."
+    ],
+    "source": "financial_glossary.txt"
+  },
+  {
+    "id": "q23",
+    "question_variants": ["what is net worth", "explain net worth", "how to calculate net worth"],
+    "answer_variants": [
+      "Net worth equals total assets minus total liabilities and measures overall financial health.",
+      "To compute net worth, sum the value of assets like savings and investments and subtract debts like loans and mortgages."
+    ],
+    "source": "financial_glossary.txt"
+  },
+  {
+    "id": "q24",
+    "question_variants": ["what is liquidity", "explain liquidity", "why liquidity matters"],
+    "answer_variants": [
+      "Liquidity is how quickly an asset can be converted into cash without significant price loss; cash is most liquid.",
+      "Maintain some liquid assets for emergencies; illiquid assets like property can take time to sell."
+    ],
+    "source": "financial_glossary.txt"
+  },
+  {
+    "id": "q25",
+    "question_variants": ["what is a brokerage fee", "explain brokerage", "how do brokers charge"],
+    "answer_variants": [
+      "Brokerage is the fee charged by brokers to execute buy/sell orders; it can be a flat fee or percentage of trade value.",
+      "Consider brokerage costs when trading frequently, as high fees can erode returns over time."
+    ],
+    "source": "financial_glossary.txt"
+  },
+  {
+    "id": "q26",
+    "question_variants": ["what is a dividend", "explain dividends", "how do dividends work"],
+    "answer_variants": [
+      "Dividends are portions of a company's profits paid to shareholders as cash or additional shares.",
+      "Investors seeking income often choose dividend-paying stocks, but dividends are not guaranteed and vary by company."
+    ],
+    "source": "financial_glossary.txt"
+  },
+  {
+    "id": "q27",
+    "question_variants": ["how to build credit score", "improve credit score tips", "ways to increase credit score"],
+    "answer_variants": [
+      "Build credit by paying bills on time, keeping credit utilization low, avoiding many new credit applications, and maintaining accounts.",
+      "Consistent on-time payments and low balances over time are the most reliable ways to raise a credit score."
+    ],
+    "source": "personal_finance_guide.txt"
+  },
+  {
+    "id": "q28",
+    "question_variants": ["what is repo rate", "explain repo rate", "how does repo rate affect economy"],
+    "answer_variants": [
+      "Repo rate is the rate at which central banks lend short-term to commercial banks; it influences lending rates and monetary policy.",
+      "When repo rate rises, borrowing costs increase, which can cool inflation; lowering it can stimulate economic activity."
+    ],
+    "source": "financial_glossary.txt"
+  },
+  {
+    "id": "q29",
+    "question_variants": ["what is SIP in mutual funds", "explain systematic investment plan", "how does SIP work"],
+    "answer_variants": [
+      "SIP invests a fixed amount regularly in mutual funds, averaging the purchase cost and reducing timing risk.",
+      "SIPs are convenient for disciplined investing and are especially helpful for investors without large lump sums."
+    ],
+    "source": "financial_glossary.txt"
+  },
+  {
+    "id": "q30",
+    "question_variants": ["what is a health insurance", "explain health insurance", "why buy health insurance"],
+    "answer_variants": [
+      "Health insurance covers medical costs, protecting you from large unexpected healthcare expenses.",
+      "Having health coverage helps avoid draining savings during serious illness and provides access to better care."
+    ],
+    "source": "personal_finance_guide.txt"
+  },
+  {
+    "id": "q31",
+    "question_variants": ["what is tax deduction", "explain tax deductions", "how do tax deductions work"],
+    "answer_variants": [
+      "A tax deduction reduces your taxable income, lowering the amount of tax owed; different jurisdictions allow various deductions.",
+      "Common deductions include certain retirement contributions, mortgage interest, and eligible medical expenses depending on local rules."
+    ],
+    "source": "personal_finance_guide.txt"
+  },
+  {
+    "id": "q32",
+    "question_variants": ["what is portfolio rebalancing", "explain rebalancing", "why rebalance portfolio"],
+    "answer_variants": [
+      "Rebalancing adjusts asset weights back to target allocations by selling over-weighted and buying under-weighted assets.",
+      "Regular rebalancing enforces discipline and maintains desired risk exposure after market movements."
+    ],
+    "source": "financial_glossary.txt"
+  },
+  {
+    "id": "q33",
+    "question_variants": ["what is a mortgage", "explain mortgage loan", "how does mortgage work"],
+    "answer_variants": [
+      "A mortgage is a long-term loan used to buy property where the property serves as collateral for the loan.",
+      "Mortgage payments typically include principal and interest; failure to repay can lead to foreclosure."
+    ],
+    "source": "financial_glossary.txt"
+  },
+  {
+    "id": "q34",
+    "question_variants": ["how to reduce debt", "ways to pay off debt faster", "debt repayment strategies"],
+    "answer_variants": [
+      "Prioritize high-interest debt, make extra payments when possible, and consider consolidation if it lowers rates and fees.",
+      "Create a budget, use windfalls to cut balances, and avoid adding new unsecured debt while paying existing debt down."
+    ],
+    "source": "personal_finance_guide.txt"
+  },
+  {
+    "id": "q35",
+    "question_variants": ["what is dollar cost averaging", "explain dollar-cost averaging", "benefits of dollar cost averaging"],
+    "answer_variants": [
+      "Dollar-cost averaging invests a fixed amount regularly, buying more when prices are low and less when prices are high.",
+      "This strategy reduces the impact of volatility and avoids trying to time the market."
+    ],
+    "source": "financial_glossary.txt"
+  },
+  {
+    "id": "q36",
+    "question_variants": ["what is a checking account", "explain current account", "difference between savings and checking"],
+    "answer_variants": [
+      "A checking (current) account is for daily transactions and payments, usually with no transaction limits but low or no interest.",
+      "Savings accounts are for storing money and earning interest; checking accounts are used for frequent withdrawals and bill payments."
+    ],
+    "source": "financial_glossary.txt"
+  },
+  {
+    "id": "q37",
+    "question_variants": ["what is investment horizon", "explain time horizon for investing", "why is investment horizon important"],
+    "answer_variants": [
+      "Investment horizon is the time you plan to hold investments before needing the money; longer horizons allow for higher-risk strategies.",
+      "Your horizon affects asset allocation: longer horizons can tolerate more equity exposure for growth."
+    ],
+    "source": "financial_glossary.txt"
+  },
+  {
+    "id": "q38",
+    "question_variants": ["what is return on investment", "explain roi", "how to calculate roi"],
+    "answer_variants": [
+      "Return on Investment (ROI) measures the gain or loss from an investment relative to its cost, often expressed as a percentage.",
+      "ROI = (Final Value − Initial Cost) / Initial Cost; use it to compare performance across investments."
+    ],
+    "source": "financial_glossary.txt"
+  },
+  {
+    "id": "q39",
+    "question_variants": ["what is inflation-adjusted return", "explain real returns", "how to account for inflation in returns"],
+    "answer_variants": [
+      "Real return = nominal return minus inflation; it reflects change in purchasing power after accounting for price increases.",
+      "Consider inflation when planning long-term goals to ensure your investments preserve buying power."
+    ],
+    "source": "financial_glossary.txt"
+  },
+  {
+    "id": "q40",
+    "question_variants": ["what is dividend yield", "explain dividend yield", "how to calculate dividend yield"],
+    "answer_variants": [
+      "Dividend yield = annual dividend per share divided by current share price; it indicates income return from stock ownership.",
+      "High yields can attract income investors but may signal higher risk; evaluate along with company fundamentals."
+    ],
+    "source": "financial_glossary.txt"
+  },
+  {
+    "id": "q41",
+    "question_variants": ["what are indexed funds", "explain index funds", "what is passive investing"],
+    "answer_variants": [
+      "Index funds track a market index and aim to replicate its performance, offering low costs and broad diversification.",
+      "Passive investing via index funds avoids active stock picking, lowering fees and often matching market returns."
+    ],
+    "source": "financial_glossary.txt"
+  },
+  {
+    "id": "q42",
+    "question_variants": ["what is a credit card interest rate", "explain credit card apr", "how is credit card interest charged"],
+    "answer_variants": [
+      "Credit card interest (APR) is charged on outstanding balances not paid by the due date; rates are typically higher than other loans.",
+      "Paying the full statement balance avoids interest; carrying a balance accrues interest daily on the unpaid amount."
+    ],
+    "source": "financial_glossary.txt"
+  },
+  {
+    "id": "q43",
+    "question_variants": ["what is dollar diversification", "explain international diversification", "why invest internationally"],
+    "answer_variants": [
+      "International diversification spreads investments across countries to reduce reliance on one economy and capture global growth.",
+      "Holding foreign assets can lower overall portfolio risk and provide exposure to different market cycles and currencies."
+    ],
+    "source": "financial_glossary.txt"
+  },
+  {
+    "id": "q44",
+    "question_variants": ["what is passive income", "explain passive income", "how to build passive income"],
+    "answer_variants": [
+      "Passive income is earnings from investments or businesses requiring minimal ongoing effort, like dividends, rental income or royalties.",
+      "Building passive income often involves upfront work or capital, then ongoing management to sustain cash flows."
+    ],
+    "source": "personal_finance_guide.txt"
+  },
+  {
+    "id": "q45",
+    "question_variants": ["what is a robo-advisor", "explain robo advisor", "how do robo advisors work"],
+    "answer_variants": [
+      "A robo-advisor uses algorithms to create and manage a portfolio based on your risk profile, often with low fees and automated rebalancing.",
+      "Robo-advisors provide accessible, low-cost investment management, suitable for many retail investors."
+    ],
+    "source": "financial_glossary.txt"
+  },
+  {
+    "id": "q46",
+    "question_variants": ["what is dollar cost averaging vs lump sum", "compare lump sum and sip", "should i invest lump sum or sip"],
+    "answer_variants": [
+      "Lump-sum investing invests all at once and can benefit when markets rise; dollar-cost averaging (SIP) spreads purchases to reduce timing risk.",
+      "Choose lump-sum when you have a long horizon and market is favorable; use SIP to manage emotions and volatility when uncertain."
+    ],
+    "source": "personal_finance_guide.txt"
+  },
+  {
+    "id": "q47",
+    "question_variants": ["what is financial planning", "explain financial planning steps", "how to make a financial plan"],
+    "answer_variants": [
+      "Financial planning sets goals, assesses current finances, creates budgets, saves and invests to meet short- and long-term objectives.",
+      "A plan includes emergency funds, debt management, investment strategies, insurance and retirement planning aligned to goals."
+    ],
+    "source": "personal_finance_guide.txt"
+  },
+  {
+    "id": "q48",
+    "question_variants": ["what is estate planning", "explain estate planning basics", "why estate planning matters"],
+    "answer_variants": [
+      "Estate planning arranges how assets are distributed after death and often includes wills, trusts and power of attorney arrangements.",
+      "Good estate planning simplifies inheritance, reduces legal complications, and ensures your wishes are followed."
+    ],
+    "source": "personal_finance_guide.txt"
+  },
+  {
+    "id": "q49",
+    "question_variants": ["how to set financial goals", "explain goal based planning", "how to set realistic financial goals"],
+    "answer_variants": [
+      "Set SMART financial goals: Specific, Measurable, Achievable, Relevant, Time-bound; break big goals into smaller milestones.",
+      "Prioritize goals (emergency fund, debt payoff, retirement) and align saving and investing strategies to each horizon."
+    ],
+    "source": "personal_finance_guide.txt"
+  },
+  {
+    "id": "q50",
+    "question_variants": ["what is inflation-protected investment", "explain tips to beat inflation", "how to protect investments from inflation"],
+    "answer_variants": [
+      "Inflation-protected investments (e.g., TIPS) and real assets like equities and real estate can help preserve purchasing power over time.",
+      "Maintaining some exposure to growth assets and diversifying across asset classes helps offset inflation erosion."
+    ],
+    "source": "financial_glossary.txt"
   }
 ]
