@@ -1,0 +1,41 @@
+[
+  {
+    "id": "q1",
+    "question_variants": [
+      "what is a mutual fund",
+      "explain mutual funds",
+      "how do mutual funds work"
+    ],
+    "answer_variants": [
+      "A mutual fund pools money from many investors to buy a diversified portfolio of stocks, bonds or other assets. It's managed by professionals and gives small investors access to diversified portfolios.",
+      "Mutual funds let many investors combine their money and share the returns and risks of a professionally managed set of investments."
+    ],
+    "source": "financial_glossary.txt"
+  },
+  {
+    "id": "q2",
+    "question_variants": [
+      "what is compound interest",
+      "explain compound interest",
+      "how does compound interest work"
+    ],
+    "answer_variants": [
+      "Compound interest is interest earned on both the original principal and on interest previously added. Over time, compound interest accelerates growth compared with simple interest.",
+      "When interest is reinvested, future interest earns interest too — that's compound interest, and it leads to exponential growth over long periods."
+    ],
+    "source": "financial_glossary.txt"
+  },
+  {
+    "id": "q3",
+    "question_variants": [
+      "what is an emi",
+      "explain emi",
+      "what is equated monthly installment"
+    ],
+    "answer_variants": [
+      "An EMI (Equated Monthly Installment) is a fixed monthly payment comprising principal and interest used to repay a loan over a set tenure.",
+      "EMI is the monthly amount you pay to repay a loan, calculated so payments are equal each month across the loan term."
+    ],
+    "source": "personal_finance_guide.txt"
+  }
+]
